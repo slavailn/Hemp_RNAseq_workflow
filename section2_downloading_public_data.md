@@ -12,4 +12,8 @@ I names this file *access_list.txt* and that the names used going forward.
 ```
 prefetch --option-file access_list.txt
 ```
-
+Note, that SRA files will be downloaded to ncbi home directory. You can use this command:
+```
+ vdb-config -i
+```
+to invoke a configuration panel and check what that directory is, the same command allows to change it. 
