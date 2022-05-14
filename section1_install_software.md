@@ -20,7 +20,8 @@ Activate the newly created environment.
 conda activate plant_rnaseq
 ```
 
-2. Install SRA toolkit
+2. Install SRA toolkit (the latest version).
+Note, that sra-tools 2.8 no longer works with regard to some functions, we need at least version 2.9.
 ```
- conda install -c bioconda sra-tools
+ conda install -c bioconda/label/cf201901 sra-tools
 ```
