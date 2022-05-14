@@ -19,5 +19,9 @@ Note, that SRA files will be downloaded to ncbi home directory. You can use this
 to invoke a configuration panel and check what that directory is, the same command allows to change it. 
 
 3. For convenience we will create *fastq* directory and move SRA files there. Next we will convert SRA to fastq:
+```
+ fasterq-dump --split-files SRX523343.sra
+```
+Run this command for every file, --split-files option is used for paired-end data. The output of this consists of 2 fastq files - one for read 1 and another for read 2.
 
 
