@@ -17,3 +17,7 @@ Note, that SRA files will be downloaded to ncbi home directory. You can use this
  vdb-config -i
 ```
 to invoke a configuration panel and check what that directory is, the same command allows to change it. 
+
+3. For convenience we will create *fastq* directory and move SRA files there. Next we will convert SRA to fastq:
+
+
