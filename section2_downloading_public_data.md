@@ -8,4 +8,8 @@ SRX523343<br/>
 
 I names this file *access_list.txt* and that the names used going forward.
 
-2. 
+2. Download the SRA files using *prefetch* command and a file with the list of accession numbers.
+```
+prefetch --option-file access_list.txt
+```
+
