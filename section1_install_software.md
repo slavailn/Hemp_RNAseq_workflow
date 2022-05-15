@@ -25,3 +25,9 @@ Note, that sra-tools 2.8 no longer works with regard to some functions, we need 
 ```
  conda install -c bioconda/label/cf201901 sra-tools
 ```
+
+3. Install GNU parallel:
+```
+conda install -c conda-forge parallel
+```
+
