@@ -24,4 +24,15 @@ to invoke a configuration panel and check what that directory is, the same comma
 ```
 Run this command for every file, --split-files option is used for paired-end data. The output of this consists of 2 fastq files - one for read 1 and another for read 2.
 
+Use GNU parallel https://www.gnu.org/software/parallel/ to parallelize commands. In our case, every SRA file can be processed in parallel on any system with multiple processor core. A brief introductory tutorial to GNU parallel can be found here: https://bioinformaticsworkbook.org/Appendix/GNUparallel/GNU_parallel_examples.html#gsc.tab=0 , of course there are many others online.
+To process multiple SRA files in parallel we can use this command:
+```
+parallel -j 4 "fasterq-dump --split-files {}" ::: *.sra
+
+```
+
+
+
+
+
 
