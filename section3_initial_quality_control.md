@@ -1,4 +1,4 @@
-## Intial qiality control of sequencing data
+## Intial quality control of sequencing data
 Initial quality control is normally done with FastQC: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 FastQC manual: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/
 FastQC page also contains example reports with different types of runs, good or bad: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
