@@ -30,4 +30,13 @@ Note, that sra-tools 2.8 no longer works with regard to some functions, we need 
 ```
 conda install -c conda-forge parallel
 ```
+4. Install FastQC:
+```
+conda install -c bioconda fastqc
+```
+
+
+
+
+
 
