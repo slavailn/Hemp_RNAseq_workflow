@@ -14,6 +14,6 @@ We will run FastQC from the command line in the *fastq/* directory that contains
 I used \* to expand all of the files with .fastq extension. In this case FastQC will run them one-by-one in sequence.
 We can also run them in parallel:
 ```
-
+ parallel -j 4 "fastqc" ::: *.fastq
 ```
 
