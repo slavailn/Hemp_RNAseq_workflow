@@ -37,7 +37,7 @@ conda install -c bioconda fastqc
 
 5. Install Trim Galore!
 ```
-conda install -c bioconda trim-galore```
+conda install -c bioconda trim-galore
 ```
 
 
