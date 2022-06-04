@@ -6,8 +6,9 @@ We will use *Trim Galore!* to trim the adapter and low quality bases. Another go
 ```
 
 Options explained:
---paired - the reads were paired as 2 separate files for Read 1 and 2.
---length N - reads with length < N after trimming will be removed. Both reads from the pair are removed if one of them falls below the length threshold.
---illumina - Trim Galore! will autodetect Illumina adapter.
---fastqc - generate FastQC reports for trimmed reads.
---q N - trim the bases with qualities below N.
+
+* --paired - the reads were paired as 2 separate files for Read 1 and 2.
+* --length N - reads with length < N after trimming will be removed. Both reads from the pair are removed if one of them falls below the length threshold.
+* --illumina - Trim Galore! will autodetect Illumina adapter.
+* --fastqc - generate FastQC reports for trimmed reads.
+* --q N - trim the bases with qualities below N.
