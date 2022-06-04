@@ -12,3 +12,14 @@ Options explained:
 * --illumina - Trim Galore! will autodetect Illumina adapter.
 * --fastqc - generate FastQC reports for trimmed reads.
 * --q N - trim the bases with qualities below N.
+
+Full list of options can be found with *--help* options.
+
+We can also run this command in parallel:
+```
+parallel -j 4 --xapply "trim_galore --paired --length 18 --illumina --fastqc -q 30" ::: *.sra_1.fastq ::: *.sra_2.fastq
+```
+--xapply option in this case ensures that the files are processed in pairs, othewise every combination of files will be used as an input. 
+
+Check fastqc results for the trimmed files and observe the improvements.
+
