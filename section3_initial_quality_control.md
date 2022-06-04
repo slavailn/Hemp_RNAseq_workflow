@@ -18,3 +18,5 @@ We can also run them in parallel:
 ```
 
 FastQC generated two files for each of fastq - a zip files and and html. A zip file contains all of the summary statistics used to plot the figures in the html. The FastQC html file can be opened and viewed in any browser. The results of FastQC analysis should be moved to a separate folder keep the project directory organized. Create a new folder *fastqc_results/* and move FastQC files there. Open the html files in the browser and evaluate sequence qualities.
+
+The results of FastQC analysis are briefly explained here: https://github.com/slavailn/Hemp_RNAseq_workflow/blob/main/fastqc_results.pdf
